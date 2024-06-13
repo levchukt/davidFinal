@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #d5bdaf;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    
+}
+
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    transition: 0.3s all ease-in;
+
+}
+
+ nav a:hover{
+    transform:scale(1.2);
+    transition: 0.3s all ease-in;
+ }
+ h1{
+        text-align: center;
+        size: 100px;
+ }
+
+ .banner{
+    height: 100vh;
+    background-color:#FFE0B5;
+    display: flex;
+    justify-content: start;
+    padding: 190px 50px 0 50px ;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.catalog h1{
+    margin-bottom: 40px;
+}
+.banner_text{
+    width: 850px;
+    font-size: 23px ;
+    text-align: center;
+}
+
+.item img{
+    width: 100%;
+    /* height: 500px; */
+    /* width: 500px; */
+}
+
+.item{
+    width: 23%;
+}
+
+.item_btn{
+    font-family: Raleway;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(185, 123, 30);
+    padding: 10px;
+    color:  rgb(255, 255, 255);
+}
+
+.cnt{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.catalog{
+    background-color: #ddb892;
+    padding: 50px 0;
+}
+.name{
+    font-size: 30px;
+
+}
+.descr{
+    font-size: 20px;
+}
+.price{
+    font-size: 20px;
+}
+.item_btn:hover{
+
+    background-color: rgb(150, 61, 61);
+    transition: .3s all ease;
+    box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,0.7);
+border: 1px solid lightgray;}
+/* 
+.item_btn::after{
+    content: '';
+    background-image: url(images/icons8-instagram-50.png);
+    background-position: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+} */
+.news{
+    background-color: #fed9b7;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.news h1{
+    margin-bottom: 45px;
+}
+span{
+    color: #a4161a;
+}
+.textnews{
+    font-size: 25px;
+}
+
+.new{
+    background-color: #d5bdaf;
+    width:30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 35px 8px rgba(0,0,0,0.1);
+}
+
+.new img{
+    width: 100%;
+
+}
+
+.new1{
+    position: relative;
+    left: 60%;
+}
+
+.new2{
+    position: relative;
+    left: 10%;
+    top: -250px;
+}
+.new3{
+    position: relative;
+    left: 60%;
+    top: -400px;
+}
+
+footer{
+    background-color: #d5bdaf;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+}
+.tel{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.map{
+    width: 250px;
+    height: 150px;
+}
